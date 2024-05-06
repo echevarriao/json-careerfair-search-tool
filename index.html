@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name = "robots" content = "all, index, follow" />
+<meta http-equiv = "CACHE-CONTROL" content = "CACHE" />
+<meta http-equiv = "PRAGMA" content = "CACHE" />
+
+<link rel='stylesheet' id='wpsm_ac-font-awesome-front-css' href='https://undergrad.engr.uconn.edu/wp-content/plugins/responsive-accordion-and-collapse/css/font-awesome/css/font-awesome.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='normalize-style-css' href='https://undergrad.engr.uconn.edu/wp-content/themes/independence-day-theme/css/normalize.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='foundation-style-css' href='https://undergrad.engr.uconn.edu/wp-content/themes/independence-day-theme/css/foundation.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='site-font-style-css' href='https://undergrad.engr.uconn.edu/wp-content/themes/independence-day-theme/css/fonts.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='site-style-css' href='https://undergrad.engr.uconn.edu/wp-content/themes/independence-day-theme/style.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='static-overrides-style-css' href='https://undergrad.engr.uconn.edu/wp-content/themes/independence-day-theme/css/app.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-style-css' href='https://undergrad.engr.uconn.edu/wp-content/themes/independence-day-theme/css/jquery-ui.css?ver=6.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://undergrad.engr.uconn.edu/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://undergrad.engr.uconn.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://undergrad.engr.uconn.edu/wp-content/themes/independence-day-theme/js/vendor/modernizr.js?ver=6.1.1' id='vendor-modernizr-js'></script>
+<script type='text/javascript' src='https://undergrad.engr.uconn.edu/wp-content/themes/independence-day-theme/js/foundation.min.js?ver=6.1.1' id='foundation-jQuery-js'></script>
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#source=googleanalytics-wordpress#product=ga&#038;property=5e55313b50017c00124868d3' id='googleanalytics-platform-sharethis-js'></script>
+<style type ="text/css">
+        
+        p.cmpTitle {
+            
+            font-weight: bold;
+            
+        }
+        
+    </style>
+
+<style type = "text/css">
+    /* dynamic overrides goes here */
+#above-header{
+
+    display: none;
+    
+}
+
+#above-header a{
+
+    
+}
+
+#above-header a:hover{
+}
+
+body{
+
+
+    background-color: #ffffff;
+
+}
+
+#header-bar{
+
+
+    background-color: #000E2F;
+
+    
+}
+
+span#uconn-signature a{
+
+color: #ffffff;
+
+    
+}
+
+#separator{
+
+color: #a1a1a1;
+
+
+}
+
+span#uconn-fullname a{
+
+color: #9faab2;
+
+    
+}
+
+#title-bar{
+    
+
+    background-color: 
+    background-color: #000E2F;
+     /* IE10+ */ 
+    background-image: -ms-linear-gradient(top, #000e2f 0%, #182860 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #000e2f 0%, #182860 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #000e2f 0%, #182860 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000e2f), color-stop(100, #182860));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #000e2f 0%, #182860 100%);
+
+    /* W3C Markup */ 
+    background-image: linear-gradient(to bottom, #000e2f 0%, #182860 100%);
+
+    
+}
+
+h6 a.primary-org-name {
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+}
+
+h6 a.primary-org-name:hover {
+    color: #ffffff;
+}
+
+.org-separator{
+color: org_separator_color}
+h6 a.secondary-org-name {
+    font-size: 14px;
+    color: #0B1860;
+    letter-spacing: 1px;
+    font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+}
+
+h6 a.secondary-org-name:hover {
+
+    color: #0B1860;
+
+}
+
+h2 span#site-name a{
+    color: #ffffff;
+}
+
+h2 span#site-name a:hover{
+    color: #0B1860;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button), #top-menu-bar,  .top-bar{
+
+
+    background-color: #182860;
+
+    
+}
+
+#mainmenu{
+
+    position: relative;
+    float: left;
+
+}
+
+#mainmenu li a{
+
+    color: #ffffff;
+    background-color: #182860;
+    
+
+}
+
+#mainmenu li a:hover{
+
+
+    color: #ffffff;
+    background-color: #ff5300;
+
+}
+
+#main-menu-bar{
+
+
+}
+
+/* website body */
+body {
+
+    background-color: #ffffff;
+
+}
+
+/* front page section body */
+
+body#frontpage #body-box{
+
+    background-color: #ffffff;
+    
+}
+
+body#frontpage #content-box, body#frontpage #contentsection{
+
+    background-color: #ffffff;
+    
+}
+
+/* secondary page section body */
+
+body#secondarypage #body-box{
+
+    background-color: #ffffff;
+    
+}
+
+body#secondarypage #content-box, body#secondarypage #contentsection{
+
+    background-color: #ffffff;
+    
+}
+
+
+
+#subfooter-box{
+    
+    display: none;
+
+    background-color: #ffffff;
+
+    
+    
+}
+
+#footer-box{
+    
+
+    background-color: #000e2f;
+
+    color: #ffffff;
+   
+}
+
+#footer-box h3.widget-title{
+    
+    color: #ffffff;
+    font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+    
+}
+
+#footer-box a{
+    
+    color: #ffffff;
+    
+    background-color: #000e2f;
+    
+}
+
+#footer-box a:hover{
+    
+    color: #000000;
+    background-color: #ffffff;
+    
+}
+
+#below-footer-box{
+    
+    color: #ffffff;
+
+    background-color: #000E2F;
+
+   
+}
+
+
+ul#default-footer li a, ul#default-footer li {
+
+    color: #ffffff;
+    background-color: #000e2f;
+    
+}
+
+ul#default-footer li a:hover{
+    
+    color: #000000;
+    background-color: #ffffff;
+    
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+    
+    display: none;
+    border-right: solid 1px #ffffff;
+
+}
+</style>        
+    
+    <script>
+(function() {
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'https://google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-62761017-2', 'auto');
+			ga('send', 'pageview');
+	})();
+</script>
+    <script src = "data.js"></script>
+	<script language = "javascript">
+	
+	function searchJSON() {
+		
+	var opp = null;
+	var contentID = null;
+	var p = null;
+	var opportunity = null;
+        var citizenship = null;
+	var form = null;
+	var citizenship = null;
+    var cfDate = null;
+        var major = null;
+        var elemObj = null;
+        var pElemObj = null;
+        var i = 0;
+        var z = 0;
+
+	contentID = document.getElementById("companiesID");
+	opportunity = document.getElementById("oppTypeID").value;
+    citizenship = document.getElementById("citizenshipID");
+    major = document.getElementById("majorID");
+
+	if(opportunity == "internships" || opportunity == "co-ops") {
+		
+	opp = document.getElementById("majorID").value + "-" + document.getElementById("oppTypeID").value
+	
+	} else {
+		
+	opp = document.getElementById("majorID").value + "-" + document.getElementById("statusID").value + "-" + document.getElementById("oppTypeID").value
+		
+	}
+	
+	for(i = 0; i < myArr.length; i++){
+		
+		citizenship = document.getElementById("citizenshipID");
+        cfDate = document.getElementById("cfDate");
+		
+//                console.log("Opportunity: " + myArr[i][opp] + " " + myArr[i].citizenship + " : " + citizenship.value);
+                
+		if(myArr[i][opp] != "" && myArr[i].citizenship.indexOf(citizenship.value) != -1 && cfDate.value == myArr[i].date && myArr[i][opp] != null){
+
+                z = z + 1;
+
+                console.log(z + " Opportunity: " + opp + " " + myArr[i][opp] + " " + myArr[i].citizenship + " : " + citizenship.value);
+                
+		pElemObj = document.createElement("p");
+                pElemObj.setAttribute("class", "cmpTitle");
+		pElemObj.innerHTML = z + ". " + myArr[i].company;
+                
+		contentID.appendChild(pElemObj);
+                
+                // company description
+
+                pElemObj = document.createElement("p");
+
+                pElemObj.innerHTML = "<b>Description:</b> " + myArr[i].description;
+                
+		contentID.appendChild(pElemObj);
+
+		pElemObj = document.createElement("p");
+                elemObj = document.createElement("a");
+
+                elemObj.setAttribute("href", myArr[i].website);
+                elemObj.setAttribute("class", "cmpURL");
+                elemObj.setAttribute("target", "_opps");
+                elemObj.innerHTML = "Visit Website";
+
+                pElemObj.appendChild(elemObj);
+                
+                contentID.appendChild(pElemObj);
+                
+                pElemObj = document.createElement("p");
+                pElemObj.innerHTML = "<b>Seeking Major:</b> " + major.options[major.selectedIndex].text;
+                
+                contentID.appendChild(pElemObj);
+                
+                pElemObj = document.createElement("p");
+                pElemObj.innerHTML = "<b>Citizen Requirements:</b> " + citizenship.options[citizenship.selectedIndex].text;
+                
+                contentID.appendChild(pElemObj);
+                
+                pElemObj = document.createElement("p");
+                pElemObj.innerHTML = "<b>Career Fair Date: </b>" + myArr[i].date;
+                
+                contentID.appendChild(pElemObj);
+
+                elemObj = document.createElement("hr");
+                contentID.appendChild(elemObj);
+                        
+		} 
+		
+	}
+    
+    if(z < 1){
+        
+    pElemObj = document.createElement("p");
+    pElemObj.innerHTML = "Your search return 0 results";
+    
+    contentID.appendChild(pElemObj);
+        
+    }
+	
+	form = document.getElementById("careerFormID");
+	
+	// form.reset();
+		
+	}
+	
+	function clearSearch()  {
+
+	var contentID = null;
+	
+	contentID = document.getElementById("companiesID");
+	
+	while(contentID.firstChild) {
+		
+	contentID.removeChild(contentID.firstChild);
+		
+	}
+		
+	}
+	
+	</script>
+</head>
+<body id = "content">
+<div id = "wrapper" class = "long-row">
+    <!-- header with brand standard -->
+    <div class = "long-row" id = "header-bar"><!-- brand bar -->
+        <div class = "row" id = "header-box">
+            <div class = "large-8 column"><!-- brand box: uconn | university of connecticut  -->
+                <ul id = "bannertop">
+                    <li>
+                        <div id = "uc-sig">
+                            <span id = "uconn-signature"><a href = "http://www.uconn.edu/">UCONN</a></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div id = "uc-sep">
+                            <span id = "separator">|</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div id = "uc-fn">
+                            <span id = "uconn-fullname"><a href = "http://www.uconn.edu/">University of Connecticut</a></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class = "large-4 column"  id = "search-index-box"><!-- search/index box -->
+				<ul id = "iconsbox">
+                    <li>
+                        <div>
+                            <a href = "http://www.uconn.edu/search/"><img src = "https://www.engr.uconn.edu/wp-content/themes/engineering/images/m-icons_0000_search-white.png" alt = "image icon" /></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href = "http://www.uconn.edu/az">A-Z</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- site title area with brand standard -->
+    <div class = "long-row" id = "title-bar">
+        <div class = "row" id = "title-box">
+            <div class = "large-12 left"><!-- site title and partnership -->
+                <h6>
+                    <a class = "primary-org-name" href = "https://www.engr.uconn.edu/">School of Engineering</a>
+                </h6>
+                <h2>
+					<span id = "site-name">
+						<a href = "https://undergrad.engr.uconn.edu">Undergraduate Programs</a>
+					</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- main menu area -->
+<div class = "long-row" id = "top-menu-bar">
+	<div class = "row">
+		<div class = "large-12">
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name"></li>
+    <li class="toggle-topbar menu-icon right"><a href="#"><span>Menu</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+		<ul id="mainmenu" class="menu"><li class="divider"></li><li id="menu-item-4115" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item active menu-item-4115"><a href="/" aria-current="page">HOME</a></li>
+<li class="divider"></li><li id="menu-item-8388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-8388"><a href="https://undergrad.engr.uconn.edu/about">ABOUT</a>
+<ul class="sub-menu dropdown">
+	<li id="menu-item-8542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8542"><a href="https://undergrad.engr.uconn.edu/about">About Undergraduate Programs</a></li>
+	<li id="menu-item-9898" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9898"><a href="https://undergrad.engr.uconn.edu/wp-content/uploads/2021/04/SoE-2020-Fact-Sheet-Web-ada.pdf">UConn Engineering Fast Facts</a></li>
+	<li id="menu-item-8391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-dropdown menu-item-8391"><a href="https://undergrad.engr.uconn.edu/news">News &#038; Events</a>
+<ul class="sub-menu dropdown">
+		<li id="menu-item-9253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9253"><a href="https://undergrad.engr.uconn.edu/a-message-from-dean-kazem-kazerounian">A Message from Dean Kazem Kazerounian</a></li>
+	</ul>
+</li>
+	<li id="menu-item-695" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-695"><a href="https://undergrad.engr.uconn.edu/people-2">Faculty &#038; Staff</a>
+<ul class="sub-menu dropdown">
+		<li id="menu-item-4614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4614"><a href="https://undergrad.engr.uconn.edu/undergraduate-programs-staff">Undergraduate Programs Office</a></li>
+		<li id="menu-item-9341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9341"><a href="https://undergrad.engr.uconn.edu/experiential-education-staff">Experiential Education Team</a></li>
+		<li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-704"><a href="https://undergrad.engr.uconn.edu/advising-staff">Advising</a></li>
+		<li id="menu-item-696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-696"><a href="https://undergrad.engr.uconn.edu/diversity-and-outreach-office">Engineering Diversity &#038; Outreach Center</a></li>
+	</ul>
+</li>
+	<li id="menu-item-3632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3632"><a href="https://undergrad.engr.uconn.edu/contact-us">Contact Us</a></li>
+	<li id="menu-item-731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-731"><a href="https://undergrad.engr.uconn.edu/faqs-and-useful-links">FAQ</a></li>
+</ul>
+</li>
+<li class="divider"></li><li id="menu-item-764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-764"><a href="https://undergrad.engr.uconn.edu/advising">ACADEMICS</a>
+<ul class="sub-menu dropdown">
+	<li id="menu-item-5101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5101"><a href="https://undergrad.engr.uconn.edu/advising/academic-policies">Academic Policies</a></li>
+	<li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1050"><a href="https://undergrad.engr.uconn.edu/advising/tutoring">Tutoring</a></li>
+	<li id="menu-item-10735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10735"><a href="https://peermentors.engr.uconn.edu/">Engineering Peer Mentor Program</a></li>
+	<li id="menu-item-7820" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7820"><a href="https://undergrad.engr.uconn.edu/other-academic-resources-2">University Resources</a></li>
+	<li id="menu-item-9526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9526"><a href="https://undergrad.engr.uconn.edu/registering-for-classes">Registering for Classes</a></li>
+	<li id="menu-item-863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-863"><a href="https://undergrad.engr.uconn.edu/advising/gen-ed-list">General Education Courses</a></li>
+	<li id="menu-item-4429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4429"><a href="https://undergrad.engr.uconn.edu/majors-minors-2/our-majors">Our Majors</a></li>
+	<li id="menu-item-2153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2153"><a href="https://undergrad.engr.uconn.edu/majors-minors-2/our-minors">Our Minors</a></li>
+	<li id="menu-item-9892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9892"><a href="https://request.engr.uconn.edu/">Apply for Major Change</a></li>
+	<li id="menu-item-873" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-873"><a href="https://undergrad.engr.uconn.edu/advising/plan-of-study">Plans of Study</a></li>
+	<li id="menu-item-1321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1321"><a href="https://undergrad.engr.uconn.edu/advising/curriculum-outlines">Curriculum Outlines</a></li>
+	<li id="menu-item-9901" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9901"><a href="https://summersession.uconn.edu/engineering/">Summer Engineering Courses</a></li>
+	<li id="menu-item-6199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6199"><a href="http://internationalengineering.uconn.edu/">International Engineering</a></li>
+	<li id="menu-item-7642" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7642"><a href="https://undergrad.engr.uconn.edu/keep-learning">COVID-19 Information and Resources</a></li>
+</ul>
+</li>
+<li class="divider"></li><li id="menu-item-8393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-dropdown menu-item-8393"><a href="#">ADVISING</a>
+<ul class="sub-menu dropdown">
+	<li id="menu-item-8394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8394"><a href="https://undergrad.engr.uconn.edu/advising-staff">Advising Staff</a></li>
+	<li id="menu-item-8401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8401"><a href="https://undergrad.engr.uconn.edu/prospective-students/need-advising">Prospective Student Advising</a></li>
+	<li id="menu-item-8395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8395"><a href="https://undergrad.engr.uconn.edu/regional-campus-engineering-advising">Regional Campus Engineering Advising</a></li>
+	<li id="menu-item-9333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9333"><a href="https://undergrad.engr.uconn.edu/engineering-success-toolbox">Engineering Success Toolbox</a></li>
+</ul>
+</li>
+<li class="divider"></li><li id="menu-item-715" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-715"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations">STUDENTS</a>
+<ul class="sub-menu dropdown">
+	<li id="menu-item-10306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10306"><a href="https://undergrad.engr.uconn.edu/engineering-peer-mentor-program">Engineering Peer Mentor Program</a></li>
+	<li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations/clubs">Clubs &#038; Societies</a></li>
+	<li id="menu-item-6696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-6696"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations/engineering-living-learning-communities">Living Learning Communities</a>
+<ul class="sub-menu dropdown">
+		<li id="menu-item-7540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7540"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations/engineering-living-learning-communities/engineering-house-learning-community">Engineering House Learning Community</a></li>
+		<li id="menu-item-7543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7543"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations/engineering-living-learning-communities/international-engineering-house">International Engineering House</a></li>
+	</ul>
+</li>
+	<li id="menu-item-870" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-870"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations/scholarships">Scholarships</a>
+<ul class="sub-menu dropdown">
+		<li id="menu-item-9807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9807"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations/scholarships">All Scholarships</a></li>
+		<li id="menu-item-9808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9808"><a href="https://undergrad.engr.uconn.edu/first-year-student-scholarship-funding">First Year Student Scholarship Funding</a></li>
+	</ul>
+</li>
+	<li id="menu-item-10762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-10762"><a href="https://undergrad.engr.uconn.edu/commencement-faqs">Commencement</a>
+<ul class="sub-menu dropdown">
+		<li id="menu-item-10469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10469"><a href="https://undergrad.engr.uconn.edu/commencement-faqs">Commencement 2023 FAQs</a></li>
+		<li id="menu-item-9840" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9840"><a href="https://undergrad.engr.uconn.edu/commencement-archive">Other Years: Commencement Archive</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1529"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations/senior-design">Senior Design Demonstration Day</a></li>
+	<li id="menu-item-3993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3993"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations/freshman-design-expo-fexpo">Freshman Design Expo (FExpo)</a></li>
+	<li id="menu-item-2418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2418"><a href="https://undergrad.engr.uconn.edu/current-students-activities-organizations/student-consumer-information">Student Consumer Information</a></li>
+	<li id="menu-item-10150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10150"><a href="https://covid.uconn.edu/">COVID-19 University Guidelines</a></li>
+</ul>
+</li>
+<li class="divider"></li><li id="menu-item-760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-760"><a href="https://undergrad.engr.uconn.edu/prospective-students">PROSPECTIVE STUDENTS</a>
+<ul class="sub-menu dropdown">
+	<li id="menu-item-7559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7559"><a href="https://undergrad.engr.uconn.edu/prospective-students/engineering-campus-visit-days">Engineering Campus Visit Days</a></li>
+	<li id="menu-item-9884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9884"><a href="https://admissions.uconn.edu/apply/first-year/requirements">First Year Applicants</a></li>
+	<li id="menu-item-5342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5342"><a href="https://undergrad.engr.uconn.edu/prospective-students/current-uconn-students">Internal Admission Process and Criteria</a></li>
+	<li id="menu-item-761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-761"><a href="https://undergrad.engr.uconn.edu/prospective-students/non-uconn-transfer-students">Transfer Students</a></li>
+	<li id="menu-item-6202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6202"><a href="https://undergrad.engr.uconn.edu/summer-camps">Explore Engineering: Summer Camps</a></li>
+	<li id="menu-item-1462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1462"><a href="https://undergrad.engr.uconn.edu/prospective-students/book-a-tour">Book an Engineering Tour</a></li>
+	<li id="menu-item-8913" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8913"><a href="https://undergrad.engr.uconn.edu/prospective-students/need-advising">Prospective Student Advising</a></li>
+</ul>
+</li>
+<li class="divider"></li><li id="menu-item-1582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-1582"><a href="https://undergrad.engr.uconn.edu/career-development">CAREERS</a>
+<ul class="sub-menu dropdown">
+	<li id="menu-item-9582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9582"><a href="https://undergrad.engr.uconn.edu/career-fairs">Annual Engineering Career Fair</a></li>
+	<li id="menu-item-868" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-868"><a href="https://undergrad.engr.uconn.edu/career-development/internships">Internships &#038; Co-ops</a></li>
+	<li id="menu-item-3206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3206"><a href="https://undergrad.engr.uconn.edu/career-development/law-school-for-engineers">Law School for Engineers</a></li>
+	<li id="menu-item-4412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4412"><a href="https://undergrad.engr.uconn.edu/career-development/a-career-in-engineering">Careers in Engineering</a></li>
+	<li id="menu-item-1585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1585"><a href="https://undergrad.engr.uconn.edu/career-development/career-consultant-engineering">Engineering Career Consultant</a></li>
+	<li id="menu-item-11558" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11558"><a href="https://drive.google.com/file/d/1h7KAVOc_NluK8_fCIWfBn7L8aGS-iVHc/view?usp=sharing">How Can I Become Career Ready?</a></li>
+</ul>
+</li>
+<li class="divider"></li><li id="menu-item-7337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-dropdown menu-item-7337"><a href="https://undergrad.engr.uconn.edu/regional-campus-engineering">REGIONAL CAMPUSES</a>
+<ul class="sub-menu dropdown">
+	<li id="menu-item-7342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7342"><a href="https://undergrad.engr.uconn.edu/avery-point">Avery Point</a></li>
+	<li id="menu-item-7341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7341"><a href="https://undergrad.engr.uconn.edu/hartford">Hartford</a></li>
+	<li id="menu-item-7340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7340"><a href="https://undergrad.engr.uconn.edu/stamford">Stamford</a></li>
+	<li id="menu-item-7339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7339"><a href="https://undergrad.engr.uconn.edu/waterbury">Waterbury</a></li>
+	<li id="menu-item-7338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7338"><a href="https://undergrad.engr.uconn.edu/regional-campus-engineering-advising">Regional Campus Engineering Advising</a></li>
+</ul>
+</li>
+</ul>	 </section>
+</nav>
+		</div>
+	</div>
+</div>    
+<!-- -->  
+
+    <div class = "long-row" id = "body-box">
+<div class = "row" id = "contentsection">
+<h2><b>College of Engineering Career Fair</b></h2>
+<p><b>When: </b> Monday, March 4th and 5th, 2024, from 11:00 am to 3:00 pm<br />
+<b>Where: </b> UConn Storrs, Student Union - third floor</p>
+
+<p>Looking for a job after graduation? An internship, Co-op, Grad school information? Then this once-per-calendar-year Engineering ONLY fair is the place for you. Bring plenty of resumes!</p>
+
+<p>Need help preparing? Contact Theo Menounos, Assistant Director, Career Coaching & Counseling I Center for Career Development | College of Engineering at <a href = "mailto:theodore.menounos@uconn.edu">theodore.menounos@uconn.edu</a></p>
+
+<p><b style = "color: red;">Professional Attire required!</b></p>
+
+
+    <form id = "careerFormID" name = "careerForm">
+<p>
+	<label>Career Fair Date: <select name = "cfDate" id = "cfDate">
+			<option value = "2024-03-04">March 4, 2024</option>
+			<option value = "2024-03-05">March 5, 2024</option>
+		</select></label>
+</p>
+<p>
+	<label>I am seeking: <select name = "oppType" id = "oppTypeID">
+			<option value = "internships">Internship</option>
+			<option value = "co-ops">Co-Op</option>
+			<option value = "fte">Full-Time Employment</option>
+		</select></label>
+</p>
+<p>
+		<label>I am a: <select name = "status" id = "statusID">
+			<option value = "graduate">Undergraduate, May Graduate or Alumni</option>
+			<option value = "masters">Masters Degrees</option>
+			<option value = "phd">Ph.D.</option>
+		</select></label>
+</p>
+<p>
+		<label>My major is: <select name = "major" id = "majorID">
+			<option value = "bme">Biomedical Engineering</option>
+			<option value = "cbe">Chemical and Biomolecular Engineering</option>
+			<option value = "cee">Civil Engineering</option>
+			<option value = "compengr">Computer Engineering</option>
+			<option value = "compsci">Computer Science</option>
+			<option value = "cse">Computer Science and Engineering</option>
+			<option value = "ece">Electrical and Computer Engineering</option>
+			<option value = "dse">Data Science Engineering</option>
+			<option value = "enve">Environmental Engineering</option>
+			<option value = "ep">Engineering Physics</option>
+			<option value = "mem">Management and Engineering for Manufacturing</option>
+			<option value = "mse">Materials Science and Engineering</option>
+			<option value = "me">Mechanical Engineering</option>
+			<option value = "mde">Multi-Disciplinary Engineering</option>
+			<option value = "robotics">Robotics Engineering</option>
+		</select></label>
+</p>
+<p>
+		<label>Indicate your citizenship status: <select name = "citizenship" id = "citizenshipID">
+			<option value = "USCITIZEN">I am a U. S. citizen</option>
+			<option value = "PERMRES">U.S. citizenship OR lawful permanent resident</option>
+			<option value = "SPONSOR">U.S. citizenship OR lawful permanent resident and we are willing to sponsor international applicant</option>
+		</select></label>
+</p>
+
+<p>
+	<input type = "button" name = "submitSearchBtn" id = "submitSearchBtnID" value = "Search Opportunities" />
+	<input type = "button" name = "clearSearchBtn" id = "clearSearchBtnID" value = "Clear Search" />
+</p>
+	</form>
+	<hr />
+	<div id = "companiesID"></div>
+</div>
+    </div>
+</body>
+
+        <script language = "javascript">
+		
+	var myArr = null;
+	var searchBtn = null;
+	var clearBtn = null;
+	var debug_on = 0;
+	
+	myArr = cfdata;
+
+	searchBtn = document.getElementById("submitSearchBtnID");
+	
+	searchBtn.onclick = function() {
+
+		clearSearch();
+		searchJSON();	
+		
+	};
+	
+	clearBtn = document.getElementById("clearSearchBtnID");
+	
+	clearBtn.onclick = function() {
+		
+		clearSearch();	
+		
+	};
+
+	
+	</script>
+<script language = "javascript" type = "text/javascript">
+    
+    jQuery(document).foundation();
+    
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62761017-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-62761017-2');
+</script>
+</html>
